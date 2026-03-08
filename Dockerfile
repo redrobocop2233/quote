@@ -17,6 +17,15 @@ COPY tests /app/tests
 COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Create startup script
+RUN echo '#!/bin/bash\n\
+echo "Starting Action Server..."\n\
+rasa run actions --actions actions --port 5055 &\n\
+ACTION_PID=$!\n\
+echo "Starting Rasa Server..."\n\
+rasa run --enable-api --cors "*" --port 5005\n\
+kill $ACTION_PID' > /app/start.sh && chmod +x /app/start.sh
+
 # Ensure proper permissions
 USER 1001
 
@@ -26,5 +35,5 @@ RUN rasa train
 # Expose ports
 EXPOSE 5005 5055
 
-# Start both Rasa server and actions server
-CMD ["bash", "-c", "rasa run actions --actions actions --port 5055 & rasa run --enable-api --cors '*' --port 5005"]
+# Use the startup script
+CMD ["/app/start.sh"]
