@@ -1,0 +1,7 @@
+# Action endpoint for Render
+action_endpoint:
+  url: "http://localhost:5055/webhook"
+
+# Tracker store
+tracker_store:
+    type: inmemory

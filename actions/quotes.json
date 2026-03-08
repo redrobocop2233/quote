@@ -1,0 +1,92 @@
+[
+  {
+    "Quote": "The only way to do great work is to love what you do.",
+    "Author": "Steve Jobs",
+    "Category": "motivation",
+    "Tags": ["work", "passion", "success"]
+  },
+  {
+    "Quote": "Life is what happens when you're busy making other plans.",
+    "Author": "John Lennon",
+    "Category": "life",
+    "Tags": ["wisdom", "present", "mindfulness"]
+  },
+  {
+    "Quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "Author": "Eleanor Roosevelt",
+    "Category": "motivation",
+    "Tags": ["dreams", "future", "inspiration"]
+  },
+  {
+    "Quote": "You only live once, but if you do it right, once is enough.",
+    "Author": "Mae West",
+    "Category": "humor",
+    "Tags": ["funny", "life", "wisdom"]
+  },
+  {
+    "Quote": "I love you without knowing how, or when, or from where.",
+    "Author": "Pablo Neruda",
+    "Category": "love",
+    "Tags": ["romantic", "poetry"]
+  },
+  {
+    "Quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "Author": "Winston Churchill",
+    "Category": "motivation",
+    "Tags": ["success", "failure", "courage"]
+  },
+  {
+    "Quote": "Be yourself; everyone else is already taken.",
+    "Author": "Oscar Wilde",
+    "Category": "humor",
+    "Tags": ["funny", "wisdom", "authenticity"]
+  },
+  {
+    "Quote": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
+    "Author": "Dr. Seuss",
+    "Category": "love",
+    "Tags": ["romantic", "sweet"]
+  },
+  {
+    "Quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "Author": "Chinese Proverb",
+    "Category": "motivation",
+    "Tags": ["action", "time", "wisdom"]
+  },
+  {
+    "Quote": "I'm not afraid of death; I just don't want to be there when it happens.",
+    "Author": "Woody Allen",
+    "Category": "humor",
+    "Tags": ["funny", "philosophy"]
+  },
+  {
+    "Quote": "To love and be loved is to feel the sun from both sides.",
+    "Author": "David Viscott",
+    "Category": "love",
+    "Tags": ["romantic", "warmth"]
+  },
+  {
+    "Quote": "Don't watch the clock; do what it does. Keep going.",
+    "Author": "Sam Levenson",
+    "Category": "motivation",
+    "Tags": ["persistence", "time"]
+  },
+  {
+    "Quote": "My doctor told me I have a week to live. I told him I want a second opinion. He said, 'Okay, you're ugly too.'",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "doctor", "joke"]
+  },
+  {
+    "Quote": "We accept the love we think we deserve.",
+    "Author": "Stephen Chbosky",
+    "Category": "love",
+    "Tags": ["self-love", "worth"]
+  },
+  {
+    "Quote": "The way to get started is to quit talking and begin doing.",
+    "Author": "Walt Disney",
+    "Category": "motivation",
+    "Tags": ["action", "success"]
+  }
+]

@@ -1,0 +1,145 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - hi there
+    - hello there
+    - hey bot
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - talk to you later
+    - I'm leaving
+    - have a good day
+    - bye bye
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - what are you?
+    - who are you?
+    - tell me about yourself
+
+- intent: ask_motivation
+  examples: |
+    - motivate me
+    - give me motivation
+    - I need motivation
+    - inspire me
+    - give me a motivational quote
+    - I need some inspiration
+    - motivate me please
+    - give me something uplifting
+
+- intent: ask_success
+  examples: |
+    - success quote
+    - give me a success quote
+    - quotes about success
+    - tell me about success
+    - success inspiration
+    - motivate me for success
+
+- intent: ask_love
+  examples: |
+    - love quote
+    - give me a love quote
+    - romantic quote
+    - quotes about love
+    - I need a love quote
+    - tell me something romantic
+    - love quotes for her
+    - love quotes for him
+
+- intent: ask_humor
+  examples: |
+    - tell me a joke
+    - funny quote
+    - make me laugh
+    - humor me
+    - give me something funny
+    - I need a laugh
+    - tell me something humorous
+    - joke please
+
+- intent: ask_inspiration
+  examples: |
+    - inspire me
+    - inspirational quote
+    - give me inspiration
+    - I need inspiration
+    - inspire me please
+    - quotes to inspire
+    - inspirational words
+
+- intent: ask_wisdom
+  examples: |
+    - give me wisdom
+    - wise quote
+    - words of wisdom
+    - philosophical quote
+    - deep quote
+    - something profound
+    - wise words
+    - wisdom please
+
+- intent: mood_great
+  examples: |
+    - I'm feeling great
+    - I'm happy
+    - I feel amazing
+    - life is good
+    - I'm doing well
+    - feeling fantastic
+    - I'm in a good mood
+
+- intent: mood_unhappy
+  examples: |
+    - I feel sad
+    - I'm depressed
+    - feeling down
+    - I'm unhappy
+    - I feel low
+    - having a bad day
+    - I'm not feeling well
+    - I'm heartbroken
+
+- intent: mood_stressed
+  examples: |
+    - I'm stressed
+    - feeling stressed
+    - stressed out
+    - I'm overwhelmed
+    - too much pressure
+    - I'm anxious
+    - feeling tense
+
+- intent: mood_tired
+  examples: |
+    - I'm tired
+    - feeling exhausted
+    - so tired
+    - I'm sleepy
+    - need energy
+    - feeling drained
+
+- intent: another_quote
+  examples: |
+    - another one
+    - more quotes
+    - give me another
+    - one more
+    - another quote please
+    - I want more
+    - next quote
+    - again

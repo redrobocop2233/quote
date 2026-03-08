@@ -1,0 +1,84 @@
+version: "3.1"
+
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: ask_motivation
+  - action: action_send_quote
+
+- story: sad path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: action_send_quote_by_emotion
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: stressed path
+  steps:
+  - intent: mood_stressed
+  - action: utter_cheer_up
+  - action: action_send_quote_by_emotion
+  - action: utter_did_that_help
+
+- story: motivation request
+  steps:
+  - intent: ask_motivation
+  - action: action_send_quote
+  - action: utter_ask_another
+
+- story: love request
+  steps:
+  - intent: ask_love
+  - action: action_send_quote
+  - action: utter_ask_another
+
+- story: humor request
+  steps:
+  - intent: ask_humor
+  - action: action_send_quote
+  - action: utter_ask_another
+
+- story: another quote after motivation
+  steps:
+  - intent: ask_motivation
+  - action: action_send_quote
+  - action: utter_ask_another
+  - intent: another_quote
+  - action: action_another_quote
+
+- story: another quote after love
+  steps:
+  - intent: ask_love
+  - action: action_send_quote
+  - action: utter_ask_another
+  - intent: another_quote
+  - action: action_another_quote
+
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: interactive story 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_motivation
+  - action: action_send_quote
+  - intent: another_quote
+  - action: action_another_quote
+  - intent: goodbye
+  - action: utter_goodbye
