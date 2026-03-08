@@ -1,17 +1,10 @@
 services:
   - type: web
     name: ultimate-quotebot
-    runtime: python
+    runtime: docker
+    repo: https://github.com/YOUR_USERNAME/YOUR_REPO_NAME
     plan: free
-    buildCommand: |
-      pip install -r requirements.txt
-      python -m spacy download en_core_web_md
-      rasa train
-    startCommand: |
-      chmod +x start.sh
-      ./start.sh
+    dockerfilePath: ./Dockerfile
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.9.18
       - key: RASA_TELEMETRY_ENABLED
         value: "false"
