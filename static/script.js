@@ -1,4 +1,4 @@
-const RASA_SERVER_URL = 'https://your-app-name.onrender.com/webhooks/rest/webhook';
+const RASA_SERVER_URL = 'https://quote-1-tdxv.onrender.com';
 let sessionId = 'user_' + Date.now() + '_' + Math.random().toString(36).substring(7);
 let conversationStarted = false;
 
